@@ -26,8 +26,31 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateParser",
+      "params": {
+        "outCol": "issue_d_parsed",
+        "formats": [
+          "MMMZ"
+        ],
+        "columns": [
+          "issue_d"
+        ],
+        "timezone_id": "UTC",
+        "appliesTo": "SINGLE_COLUMN",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +58,35 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "funded_amnt": 100,
+    "purpose": 141,
+    "issue_d": 100,
+    "proba_ok": 148,
+    "verification_status": 183,
+    "title": 218,
+    "zip_code": 100,
+    "issue_date": 120,
+    "pymnt_plan": 100,
+    "dti": 100,
+    "proba_incident": 148,
+    "term": 100,
+    "int_rate": 100,
+    "prediction_correct": 150,
+    "sub_grade": 100,
+    "loan_status": 100,
+    "issue_d_parsed": 183,
+    "emp_title": 204,
+    "home_ownership": 120,
+    "addr_state": 100,
+    "funded_amnt_inv": 128,
+    "installment": 100,
+    "grade": 100,
+    "prediction": 100,
+    "loan_amnt": 100,
+    "emp_length_month": 135,
+    "desc": 218
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
