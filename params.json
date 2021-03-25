@@ -121,8 +121,7 @@
       }
     }
   },
-  "name": "test13",
-  "projectStatus": "Sandbox",
+  "name": "test13 (branch)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -178,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616670203823
+    "lastModifiedOn": 1616670264450
   },
   "creationTag": {
     "versionNumber": 0,
@@ -191,8 +190,10 @@
     },
     "lastModifiedOn": 1616670146897
   },
-  "shortDesc": "The project *test13* was created by Administrator on Mar 25th 2021",
-  "tags": [],
+  "shortDesc": "The project *test13* was created by Administrator on Mar 25th 2021\nThe project *TEST13_BRANCH* was copied from *TEST13* by Administrator on Mar 25th 2021",
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {
     "gdpr_forbid_dataset_sharing": false,
     "gdpr_forbid_dataset_export": false,
